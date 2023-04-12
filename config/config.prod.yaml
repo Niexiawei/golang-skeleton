@@ -1,0 +1,15 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password:
+  database:
+  pool: 100
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password:
+  pool: 100
+  db: 12
+http:
+  port: 8996
