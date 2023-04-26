@@ -13,6 +13,7 @@ func bootstrap() {
 }
 
 func main() {
+	bootstrap()
 	if err := cmd.Execute(); err != nil {
 		log.Fatal(err)
 	}
